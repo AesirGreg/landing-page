@@ -6,7 +6,7 @@ This project is a replication of a simple landing page. The goal was to demonstr
 
 1.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/AesirGreg/landing-page.git
     ```
 2.  **Open the File**: Simply open the `index.html` file in your web browser to view the project.
 
