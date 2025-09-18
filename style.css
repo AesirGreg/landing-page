@@ -2,29 +2,33 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Styles for the main header container. It's a flexbox container that aligns and distributes its children. */
 .header {
     background-color: rgb(37, 38, 66);
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; /* Vertically centers items along the cross-axis */
+    justify-content: space-between; /* Distributes space between items along the main axis */
     margin: 0;
-    padding: 0px 256px;
+    padding: 0px 256px; /* Adds horizontal padding to create space on the sides */
 }
 
+/* Styles for the navigation links container */
 .links {
-    display: flex;
+    display: flex; /* Makes the list items a flexbox row */
     align-content: flex-end;
-    gap: 16px;
+    gap: 16px; /* Adds a gap between each list item */
     margin: 0;
     padding: 0;
 }
 
+/* Styles for all anchor (a) tags, making them white and removing the underline */
 a {
     color: white;
     text-decoration: none;
     font-weight: 700;
 }
 
+/* Styles for the main heading (h1) */
 h1 {
     font-weight: 900;
     font-size: 58px;
@@ -33,6 +37,7 @@ h1 {
     padding: 0px;
 }
 
+/* Styles for the h2 heading */
 h2 {
     color: whitesmoke;
     font-weight: 500;
@@ -40,27 +45,31 @@ h2 {
     text-wrap: auto;
 }   
 
+/* Styles for the h3 heading */
 h3 {
     color: black;
     font-weight: 900;
     font-size: 48px;
 }
 
+/* Removes the default bullet points from list items */
 li {
     list-style-type: none;
 }
 
+/* Styles for the hero section, a flexbox container with centered content */
 .hero {
     background-color: rgb(37, 38, 66);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px 256px;
+    padding: 48px 256px; /* Adds space inside the container */
 }
 
+/* Styles for the hero content, a flexbox column with vertical and horizontal alignment */
 .hero-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stacks items vertically */
     align-items: flex-start;
     justify-content: center;
     gap: 16px;
@@ -69,6 +78,7 @@ li {
     padding: 0;
 }
 
+/* Styles for the items container, making the items a flexbox row with a gap */
 .items {
     display: flex;
     text-align: center;
@@ -77,9 +87,10 @@ li {
     padding: 16px
 }
 
+/* Styles for an individual item in the items section */
 .item {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stacks the image and subtext vertically */
     align-items: center;
     padding: 0;
     margin: 0;
@@ -87,6 +98,7 @@ li {
     font-size: 18px;
 }
 
+/* Styles for the images inside the item divs */
 .item img {
     flex: 1;
     width: 150px;
@@ -97,6 +109,7 @@ li {
     margin-bottom: 16px;
 }
 
+/* Styles for the sign-up button in the hero section */
 .sign-up {
     padding: 8px 40px;
     border-radius: 10px;
@@ -107,11 +120,13 @@ li {
     border-style: none;
 }
 
+/* Styles for the information section */
 .information {
     text-align: center;
     padding: 64px 256px
 }
 
+/* Styles for the quote section, a flexbox column aligned to the end */
 .quote {
     display: flex;
     flex-direction: column;
@@ -122,6 +137,7 @@ li {
     gap: 32px;
 }
 
+/* Styles for the quote text */
 .quote-text {
     font-style: italic;
     font-weight: 100;
@@ -131,16 +147,19 @@ li {
     margin: 0;
 }
 
+/* Styles for the quote name */
 .quote-name {
     font-weight: 700;
     font-size: 32px;
 }
 
+/* Styles for the CTA (Call to Action) section */
 .CTA {
     display: flex;
     justify-content: center;
 }
 
+/* Styles for the CTA container, a flexbox row with centered and spaced content */
 .CTA-container {
     color: white;
     background-color: cornflowerblue;
@@ -154,21 +173,25 @@ li {
     align-items: center;
 }
 
+/* Styles for the CTA content (h2 and p tags) */
 .CTA-content p, h2 {
     margin: 0;
     padding: 0;
 }
 
+/* Styles for the h2 in the CTA content */
 .CTA-content h2 {
     font-weight: 600;
     font-size: 32px;
 }
 
+/* Styles for the p tag in the CTA content */
 .CTA-content p {
     font-size: 18px;
     font-weight: 200;
 }
 
+/* Styles for the CTA button */
 .CTA-button {
     padding: 10px 32px;
     color: white;
@@ -181,6 +204,7 @@ li {
     font-weight: 600;
 }
 
+/* Styles for the footer section */
 .footer {
     background-color: rgb(23, 23, 36);
     display: flex;
